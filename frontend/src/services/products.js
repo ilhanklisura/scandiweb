@@ -4,7 +4,7 @@ import axios from "axios";
 const API = [
    `https://touristhorizons.com/backend/`,
    `http://localhost:8000/`,
-][1];
+][0];
 
 export const fetchAllProducts = async () => {
    return await axios.get(API, {
